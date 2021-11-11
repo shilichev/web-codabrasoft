@@ -1,0 +1,39 @@
+.body {
+  height: auto;
+  margin-top: 23vh;
+  padding-bottom: 7vh;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  gap: 15.75%;
+  height: auto;
+}
+
+.item {
+  /* width: 300px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  width: 700px;
+  margin-bottom: 7vh;
+  font-family: "Poppins-Bold";
+}
+
+.titleOther {
+  color: #743bfc;
+}

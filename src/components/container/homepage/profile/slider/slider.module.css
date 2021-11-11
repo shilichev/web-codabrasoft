@@ -1,0 +1,16 @@
+.itemV {
+  height: 700px;
+  width: 500px;
+  background-color: gray;
+  /* margin: 50px; */
+}
+.itemH {
+  width: 700px;
+  height: 500px;
+  background-color: gray;
+  /* margin: 50px; */
+}
+
+.sideMargin {
+  width: calc((100vw - 1140px) / 2);
+}

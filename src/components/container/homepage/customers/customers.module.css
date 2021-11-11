@@ -1,0 +1,22 @@
+.body {
+  margin: 42vh 0;
+}
+.title {
+  font-family: "Poppins-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+
+  color: white;
+
+  width: 600px;
+}
+.pirple {
+  color: #743bfc;
+}
+.menuitem {
+  color: white;
+}
+
+

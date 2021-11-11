@@ -1,0 +1,48 @@
+.body {
+  /* width: 60%; */
+  padding: 10vh 0;
+  background: #743bfc;
+}
+.title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 10vh;
+}
+.mainTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #ffffff;
+}
+.subTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.projects {
+  height: 230vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSide {
+  height: auto;
+}
+
+.rightSide {
+  margin-top: 5vh;
+  height: auto;
+}
+
+@media screen and (max-width: 1145px) {
+  /* .projects {
+    height: 540vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+  } */
+}

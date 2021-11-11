@@ -1,0 +1,57 @@
+.header {
+  background-color: none;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  margin-right: 5 0px;
+  /* max-width: 100px; */
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+}
+
+.menuItems {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  letter-spacing: 0em;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Poppins-Medium";
+}
+.menuItems > div {
+  padding-right: 40px;
+}
+
+.menuButton {
+  width: 98px;
+  height: 32px;
+  background-color: rgba(116, 59, 252, 1);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+  justify-self: left;
+  min-width: 74px;
+}

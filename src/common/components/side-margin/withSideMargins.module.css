@@ -1,0 +1,9 @@
+.block {
+  padding: 0 calc((100% - 1170px) / 2);
+}
+
+@media screen and (max-width: 1145px) {
+  .block {
+    margin: 0;
+  }
+}

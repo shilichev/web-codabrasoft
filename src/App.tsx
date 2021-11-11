@@ -1,24 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/header/header";
+import Homepage from "./components/container/homepage/homepage";
+import { useWindowSize } from "./common/windowSize";
+import withSideMargins from "./common/components/side-margin/withSideMagrins";
 
 function App() {
+  // const width = useWindowSize()
+  // let padding: string
+  // if (width < 1360) {
+  //   padding = '0 100px'
+  // } else {
+  //   padding = `0 ${2 * width - 2500}px 0 ${2 * width - 2800}px`
+  // }
+
+  var top = 0;
+
+  const scroll = ():React.UIEventHandler<HTMLDivElement> => {
+    var scr = setInterval(function () {
+      top += 5;
+      window.scrollTo(0, top);
+
+      if (top > 1000) {
+        clearInterval(scr);
+      }
+    }, 15);
+    // window.scrollTo(0, 500);
+    return App
+  };
+
+  const style = {
+    margin: "0",
+    backgroundColor: "black",
+    fontFamily: '"Poppins", sans-serif',
+  };
+
+  const HeaderWithMargins = withSideMargins({ Component: <Header /> });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={style} onScroll={scroll()}>
+      {HeaderWithMargins}
+      <Homepage />
     </div>
   );
 }
