@@ -2,6 +2,7 @@
   "name": "web-codabrasoft",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shilichev.github.io/web-codabrasoft",
   "dependencies": {
     "@react-three/fiber": "^7.0.6",
     "@testing-library/jest-dom": "^5.14.1",
@@ -19,8 +20,7 @@
     "swiper": "^6.8.4",
     "three": "^0.131.3",
     "typescript": "^4.3.5",
-    "web-vitals": "^1.1.2",
-    "homepage": "https://shilichev.github.io/web-codabrasoft/"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start --host 0.0.0.0 --disable-host-check",

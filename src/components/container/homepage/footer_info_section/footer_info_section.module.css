@@ -1,0 +1,6 @@
+.footer {
+    height: 80vh;
+    padding: 10vh 0;
+    display: flex;
+    justify-content: space-between;
+}

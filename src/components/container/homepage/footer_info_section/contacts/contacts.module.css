@@ -1,0 +1,59 @@
+.contacts {
+  width: 34%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+
+.item {
+  margin-bottom: 10vh;
+}
+
+.title {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.26em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-family: "Poppins-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: flex-end;
+  color: #ffffff;
+}
+
+.footer {
+  font-family: "Poppins-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+
+  /* White */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}

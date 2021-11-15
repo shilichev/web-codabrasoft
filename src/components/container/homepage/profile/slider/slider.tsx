@@ -1,14 +1,10 @@
 import React from "react";
 import classes from "./slider.module.css";
-import "./slider.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
-// import  { Pagination } from "swiper/js/swiper.esm";
-
-// import "./styles.css";
 
 import SwiperCore, { Pagination } from "swiper";
 
@@ -19,9 +15,7 @@ const ProfileSlider = (): JSX.Element => {
     <>
       <Swiper
         slidesPerView={"auto"}
-        spaceBetween={50}
         freeMode={true}
-        className="mySwiper"
       >
         <SwiperSlide>
           <div className={classes.sideMargin}></div>

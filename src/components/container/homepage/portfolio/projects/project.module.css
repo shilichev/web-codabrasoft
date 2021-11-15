@@ -3,6 +3,7 @@
     background-color: #c9c9c9;
     height: 714px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 1200px) {

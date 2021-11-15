@@ -1,0 +1,134 @@
+.form {
+  margin-right: 25%;
+  width: 66%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.item {
+  color: #ffffff;
+}
+
+.header {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.activeItem {
+  color: black;
+  background-color: #ffffff;
+}
+
+.title {
+  font-family: "Poppins-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+
+  color: #ffffff;
+  padding-bottom: 5vh;
+}
+
+.headerDevs {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: flex-end;
+  color: #898989;
+  padding-bottom: 31px;
+}
+
+.item,
+.activeItem {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 12px 36px;
+  margin-right: 30px;
+  margin-bottom: 28px;
+  border: #ffffff 1px solid;
+  border-radius: 50px;
+  display: block;
+  float: left;
+}
+
+.inputView {
+  display: flex;
+  align-items: flex-start;
+  height: 20vh;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 5vh;
+}
+
+.inputView > input {
+  background: none;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  width: 400px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #ffffff;
+  padding-bottom: 6px;
+}
+
+.inputView > input:focus {
+  border-bottom: 1px solid #743bfc;
+}
+
+.form > button {
+  margin-top: 7vh;
+  width: 189px;
+  height: 53px;
+  background: #743bfc;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+}
+
+.form > button:hover {
+  cursor: pointer;
+  border: #6233d1 3px solid;
+}
+.buttonText {
+  height: 27px;
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}

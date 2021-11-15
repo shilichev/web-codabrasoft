@@ -2,6 +2,7 @@ import React from "react";
 import withSideMargins from "../../../common/components/side-margin/withSideMagrins";
 import Customers from "./customers/customers";
 import Development from "./developments/developments";
+import InfoSection from "./footer_info_section/footer_info_section";
 import classes from "./homepage.module.css";
 import Portfolio from "./portfolio/portfolio";
 import Profile from "./profile/profile";
@@ -24,6 +25,10 @@ const Homepage = (): JSX.Element => {
       })}
       <Customers></Customers>
       <Profile></Profile>
+      {withSideMargins({
+        Component: <InfoSection />,
+        backgroundColor: "black",
+      })}
     </div>
   );
 };
