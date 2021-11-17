@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/web-codabrasoft/static/css/main.1470ac51.chunk.css",
-    "main.js": "/web-codabrasoft/static/js/main.a26c8f04.chunk.js",
-    "main.js.map": "/web-codabrasoft/static/js/main.a26c8f04.chunk.js.map",
-    "runtime-main.js": "/web-codabrasoft/static/js/runtime-main.883631aa.js",
-    "runtime-main.js.map": "/web-codabrasoft/static/js/runtime-main.883631aa.js.map",
+    "main.css": "/web-codabrasoft/static/css/main.0b005df0.chunk.css",
+    "main.js": "/web-codabrasoft/static/js/main.62d58a75.chunk.js",
+    "main.js.map": "/web-codabrasoft/static/js/main.62d58a75.chunk.js.map",
+    "runtime-main.js": "/web-codabrasoft/static/js/runtime-main.779967b9.js",
+    "runtime-main.js.map": "/web-codabrasoft/static/js/runtime-main.779967b9.js.map",
     "static/css/2.ee779822.chunk.css": "/web-codabrasoft/static/css/2.ee779822.chunk.css",
-    "static/js/2.cacd3039.chunk.js": "/web-codabrasoft/static/js/2.cacd3039.chunk.js",
-    "static/js/2.cacd3039.chunk.js.map": "/web-codabrasoft/static/js/2.cacd3039.chunk.js.map",
-    "static/js/3.e7407410.chunk.js": "/web-codabrasoft/static/js/3.e7407410.chunk.js",
-    "static/js/3.e7407410.chunk.js.map": "/web-codabrasoft/static/js/3.e7407410.chunk.js.map",
+    "static/js/2.19dd69a7.chunk.js": "/web-codabrasoft/static/js/2.19dd69a7.chunk.js",
+    "static/js/2.19dd69a7.chunk.js.map": "/web-codabrasoft/static/js/2.19dd69a7.chunk.js.map",
+    "static/js/3.93eb45db.chunk.js": "/web-codabrasoft/static/js/3.93eb45db.chunk.js",
+    "static/js/3.93eb45db.chunk.js.map": "/web-codabrasoft/static/js/3.93eb45db.chunk.js.map",
     "index.html": "/web-codabrasoft/index.html",
     "static/css/2.ee779822.chunk.css.map": "/web-codabrasoft/static/css/2.ee779822.chunk.css.map",
-    "static/css/main.1470ac51.chunk.css.map": "/web-codabrasoft/static/css/main.1470ac51.chunk.css.map",
-    "static/js/2.cacd3039.chunk.js.LICENSE.txt": "/web-codabrasoft/static/js/2.cacd3039.chunk.js.LICENSE.txt",
+    "static/css/main.0b005df0.chunk.css.map": "/web-codabrasoft/static/css/main.0b005df0.chunk.css.map",
+    "static/js/2.19dd69a7.chunk.js.LICENSE.txt": "/web-codabrasoft/static/js/2.19dd69a7.chunk.js.LICENSE.txt",
     "static/media/index.css": "/web-codabrasoft/static/media/Poppins-SemiBold.cce5625b.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.883631aa.js",
+    "static/js/runtime-main.779967b9.js",
     "static/css/2.ee779822.chunk.css",
-    "static/js/2.cacd3039.chunk.js",
-    "static/css/main.1470ac51.chunk.css",
-    "static/js/main.a26c8f04.chunk.js"
+    "static/js/2.19dd69a7.chunk.js",
+    "static/css/main.0b005df0.chunk.css",
+    "static/js/main.62d58a75.chunk.js"
   ]
 }
