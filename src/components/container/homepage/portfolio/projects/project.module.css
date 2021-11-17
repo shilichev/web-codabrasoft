@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 1200px) {
     .project {
-      width: 48vw;
+      width: max(calc(50vw - 30px) , 470px);
+      height: max(calc(62vw - 30px) , 589px);
     }
   }

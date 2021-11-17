@@ -1,6 +1,6 @@
 .contacts {
   width: 34%;
-  height: 80vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

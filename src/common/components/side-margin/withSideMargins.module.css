@@ -1,8 +1,8 @@
 .block {
-  padding: 0 calc((100% - 1170px) / 2);
+  padding: 0 max(calc(50% - 585px), 15px) ;
 }
 
-@media screen and (max-width: 1145px) {
+@media screen and (max-width: 1170px) {
   .block {
     margin: 0;
   }

@@ -12,5 +12,5 @@
 }
 
 .sideMargin {
-  width: calc((100vw - 1170px) / 2);
+  width: max(calc(50vw - 585px), 15px) ;
 }
