@@ -33,25 +33,91 @@
   font-family: "Poppins-Medium";
 }
 .menuItems > div {
-  padding-right: 40px;
+  /* padding-right: 40px; */
+  width: 105px;
+  display: flex;
+  align-items: center;
 }
 
-.menuButton {
-  width: 98px;
-  height: 32px;
-  background-color: rgba(116, 59, 252, 1);
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: white;
-  border-radius: 30px;
+.menuItems > span {
+  width: 135px;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: absolute; */
-  justify-self: left;
-  min-width: 74px;
+}
+
+.menuButton {
+  width: 100px;
+  height: 32px;
+  background: #743bfc;
+  border-radius: 16px;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  opacity: 1;
+}
+
+.outline {
+  width: 116px;
+  height: 44px;
+  border: #743bfc solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border-radius: 24px;
+  opacity: 0.6;
+  position: absolute;
+  animation:  2s ease-in 1s infinite reverse both;
+  animation-name: outline;
+}
+
+.outlineBorder {
+  border: #743bfc solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  height: 56px;
+  border-radius: 28px;
+  background: none;
+  opacity: 0.3;
+  position: absolute;
+  animation:  2s ease-in 2s infinite both;
+  animation-name: outlineBorder;
+}
+
+@keyframes outline {
+  0% {
+    width: 116px;
+    height: 44px;
+    opacity: 0.6;
+  }
+  100% {
+    width: 100px;
+    height: 32px;
+    opacity: 1;
+  }
+}
+
+@keyframes outlineBorder {
+  0% {
+    width: 100px;
+    height: 32px;
+    opacity: 0;
+  }
+  50% {
+    width: 116px;
+    height: 44px;
+    opacity: 0;
+  }
+  100% {
+    width: 135px;
+    height: 56px;
+    opacity: 0.3;
+  }
 }

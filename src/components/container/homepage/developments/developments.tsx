@@ -7,6 +7,7 @@ import QA from "../../../../data/images/welcome_page/QA.png";
 import Design from "../../../../data/images/welcome_page/design.png";
 import Proto from "../../../../data/images/welcome_page/proto.png";
 import StartUp from "../../../../data/images/welcome_page/startup.png";
+import CommonTitle from "../../../../common/components/title/title";
 
 export interface IDev {
   title: string;
@@ -55,10 +56,9 @@ const devs: IDev[] = [
 const Development = (): JSX.Element => {
   return (
     <div className={classes.body}>
-      <div className={classes.title}>
-        <span className={classes.titleOther}>Full-cycle</span> Custom Software
-        Development
-      </div>
+      <CommonTitle pirple="Full-cycle">
+        Full-cycle Custom Software Development
+      </CommonTitle>
       <div className={classes.main}>
         {devs.map((item) => (
           <div className={classes.item}>
