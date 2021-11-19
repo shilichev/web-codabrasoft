@@ -1,0 +1,30 @@
+.buttonHire {
+  margin-top: 7vh;
+  width: 189px;
+  height: 53px;
+  background: #743bfc;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+}
+
+.buttonHire:hover {
+  cursor: pointer;
+  border: #6233d1 3px solid;
+}
+.buttonHireText {
+  width: 91px;
+  height: 27px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #ffffff;
+}

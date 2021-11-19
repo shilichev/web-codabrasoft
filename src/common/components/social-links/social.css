@@ -1,0 +1,12 @@
+.linkContainer {
+  width: 234px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  /* position: fixed; */
+  bottom: 27px;
+}
+
+.link:hover {
+  cursor: pointer;
+}

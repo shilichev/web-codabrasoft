@@ -1,0 +1,3 @@
+.content {
+  width: max(calc(7% + 300px), 35%);
+}

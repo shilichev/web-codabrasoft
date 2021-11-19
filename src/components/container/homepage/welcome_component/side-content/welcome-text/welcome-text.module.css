@@ -1,0 +1,10 @@
+.welcomeText {
+    font-family: "Poppins-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }

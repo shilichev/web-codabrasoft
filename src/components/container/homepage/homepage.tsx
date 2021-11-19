@@ -6,7 +6,7 @@ import InfoSection from "./footer_info_section/footer_info_section";
 import classes from "./homepage.module.css";
 import Portfolio from "./portfolio/portfolio";
 import Profile from "./profile/profile";
-import WelcomeComponent from "./welcome_component/welcome_component";
+import WelcomeComponent from "./welcome_component/welcome-component";
 
 const Homepage = (): JSX.Element => {
   return (
