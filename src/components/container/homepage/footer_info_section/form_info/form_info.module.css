@@ -8,7 +8,7 @@
 }
 
 .item {
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .header {
@@ -21,12 +21,12 @@
   align-items: flex-end;
   letter-spacing: 0.26em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .activeItem {
-  color: black;
-  background-color: #ffffff;
+  color: var(--main-bg-color);
+  background-color: var(--text-color);
 }
 
 .title {
@@ -35,8 +35,7 @@
   font-weight: bold;
   font-size: 48px;
   line-height: 72px;
-
-  color: #ffffff;
+  color: var(--text-color);
   padding-bottom: 5vh;
 }
 
@@ -68,7 +67,7 @@
   padding: 12px 36px;
   margin-right: 30px;
   margin-bottom: 28px;
-  border: #ffffff 1px solid;
+  border: var(--text-color) 1px solid;
   border-radius: 50px;
   display: block;
   float: left;
@@ -92,25 +91,23 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  /* identical to box height */
   width: 400px;
   display: flex;
   align-items: flex-end;
-
-  color: #ffffff;
+  color: var(--text-color);
   padding-bottom: 6px;
   margin-bottom: 5vh;
 }
 
 .inputView > input:focus {
-  border-bottom: 1px solid #743bfc;
+  border-bottom: 1px solid var(--second-bg-color);
 }
 
 .form > button {
   margin-top: 7vh;
   width: 189px;
   height: 53px;
-  background: #743bfc;
+  background: var(--second-bg-color);
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -130,5 +127,5 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  color: #ffffff;
+  color: var(--text-color);
 }

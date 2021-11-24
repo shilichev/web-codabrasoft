@@ -8,6 +8,7 @@ import Design from "../../../../data/images/welcome_page/design.png";
 import Proto from "../../../../data/images/welcome_page/proto.png";
 import StartUp from "../../../../data/images/welcome_page/startup.png";
 import CommonTitle from "../../../../common/components/title/title";
+import DevContainer from "./dev-container/dev-container";
 
 export interface IDev {
   title: string;
@@ -59,7 +60,7 @@ const Development = (): JSX.Element => {
       <CommonTitle pirple="Full-cycle">
         Full-cycle Custom Software Development
       </CommonTitle>
-      <div className={classes.main}>
+      <DevContainer>
         {devs.map((item) => (
           <div className={classes.item}>
             <Dev
@@ -69,7 +70,7 @@ const Development = (): JSX.Element => {
             ></Dev>
           </div>
         ))}
-      </div>
+      </DevContainer>
     </div>
   );
 };

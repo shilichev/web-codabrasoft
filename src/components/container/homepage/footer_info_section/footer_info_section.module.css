@@ -1,6 +1,6 @@
 .footer {
     height: auto;
-    padding: 10vh 0;
+    padding: var(--common-bottom-top-padding) 0;
     display: flex;
     justify-content: space-between;
 }

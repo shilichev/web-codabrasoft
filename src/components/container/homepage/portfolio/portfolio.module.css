@@ -1,27 +1,27 @@
 .body {
   padding: 10vh 0;
-  background: #743bfc;
+  background: var(--second-bg-color);
 }
 
 .title {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
-  margin-bottom: 10vh;
 }
 
 .mainTitle {
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .subTitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: var(--text-color);
+  margin-bottom: 7vh;
 }
 
 .projects {

@@ -1,4 +1,5 @@
 import React from "react";
+import CommonTitle from "../../../../common/components/title/title";
 import classes from "./portfolio.module.css";
 import Project from "./projects/project";
 
@@ -8,7 +9,7 @@ const Portfolio = (): JSX.Element => {
   return (
     <div className={classes.body}>
       <div className={classes.title}>
-        <div className={classes.mainTitle}>Our Portfolio </div>
+        <CommonTitle>Our Portfolio</CommonTitle>
         <div className={classes.subTitle}>
           See All Works{" "}
           <svg

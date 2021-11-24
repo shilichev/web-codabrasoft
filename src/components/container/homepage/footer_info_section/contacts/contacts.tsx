@@ -1,4 +1,5 @@
 import React from "react";
+import SocialLinks from "../../../../../common/components/social-links/social-links";
 import classes from "./contacts.module.css";
 
 const Contacts = (): JSX.Element => {
@@ -17,6 +18,7 @@ const Contacts = (): JSX.Element => {
         </div>
         <div className={classes.item}>
           <div className={classes.title}>FOLLOW</div>
+          <SocialLinks></SocialLinks>
           {/* <div className=}></div> */}
         </div>
       </div>

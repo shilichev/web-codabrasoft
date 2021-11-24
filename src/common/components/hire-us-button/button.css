@@ -2,7 +2,7 @@
   margin-top: 7vh;
   width: 189px;
   height: 53px;
-  background: #743bfc;
+  background: var(--second-bg-color);
   border-radius: 30px;
 
   display: flex;
@@ -19,12 +19,9 @@
 .buttonHireText {
   width: 91px;
   height: 27px;
-
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
-
-  color: #ffffff;
+  color: var(--text-color);
 }

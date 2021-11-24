@@ -1,43 +1,5 @@
 .body {
   height: auto;
   margin-top: 23vh;
-  padding-bottom: 7vh;
-
-  /* margin-left: -7.5%; */
-}
-.main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: space-between;
-  /* gap: 15.75%; */
-  margin-right: -8%;
-  height: auto;
-}
-
-.item {
-  /* width: 300px; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 8%;
-}
-
-.title {
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 72px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: white;
-  width: 700px;
-  margin-bottom: 7vh;
-  font-family: "Poppins-Bold";
-}
-
-.titleOther {
-  color: #743bfc;
+  padding-bottom: var(--common-bottom-top-padding);
 }

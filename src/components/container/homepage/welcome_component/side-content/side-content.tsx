@@ -11,7 +11,7 @@ const SideContent = (): JSX.Element => {
       <WelcomeText>Hey, we are Codabrasoft! 👋</WelcomeText>
       <WelcomeTitle>Design and development for your product</WelcomeTitle>
       <HireButton>Hire Us</HireButton>
-      <SocialLinks />
+      <SocialLinks style={{position: "fixed"}} />
     </div>
   );
 };

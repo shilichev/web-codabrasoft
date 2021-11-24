@@ -6,9 +6,9 @@ import Facebook from "../../../data/images/welcome_page/facebook 1.png";
 import Twitter from "../../../data/images/welcome_page/twitter 1.png";
 import Behance from "../../../data/images/welcome_page/behance 1.png";
 
-const SocialLinks = () => {
+const SocialLinks = ({ style }: any) => {
   return (
-    <div className="linkContainer">
+    <div className="linkContainer" style={style}>
       <img src={LinkedIn} className="link" />
       <img src={Facebook} />
       <img src={Twitter} />

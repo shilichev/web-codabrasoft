@@ -30,7 +30,7 @@ function App() {
 
   const style = {
     margin: "0",
-    backgroundColor: "black",
+    backgroundColor: "var(--main-bg-color)",
     fontFamily: '"Poppins", sans-serif',
   };
 

@@ -1,10 +1,11 @@
 .welcomeTitle {
   font-size: 6.8rem;
   font-style: normal;
-  line-height: 86px;
+  line-height: 9.4rem;
   letter-spacing: 0em;
   text-align: left;
-  color: white;
+  color: var(--text-color);
   margin-top: 4vh;
   font-family: "Poppins-Bold";
+  width: max(calc(7% + 300px), 35%);
 }

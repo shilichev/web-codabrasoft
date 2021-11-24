@@ -6,5 +6,5 @@
     line-height: 42px;
     display: flex;
     align-items: center;
-    color: #ffffff;
+    color: var(--text-color);
   }

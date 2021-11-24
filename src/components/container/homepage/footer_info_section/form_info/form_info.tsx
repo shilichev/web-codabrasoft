@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import classes from "./form_info.module.css";
 import Developments from "./childs/development";
+import CommonTitle from "../../../../../common/components/title/title";
 
 interface IDepartments {
   text: string;
@@ -50,9 +51,10 @@ const FormInfo = (): JSX.Element => {
   return (
     <div className={classes.form}>
       <div className={classes.header}>HIRE US</div>
-      <div className={classes.title}>
+      <CommonTitle> Let’s make something amazing together !</CommonTitle>
+      {/* <div className={classes.title}>
         Let’s make something <br /> amazing together !
-      </div>
+      </div> */}
       <div className={classes.headerDevs}>I’m interested in ...</div>
       <div>
         {departments.map((item: IDepartments) => (

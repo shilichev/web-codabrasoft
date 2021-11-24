@@ -13,21 +13,18 @@ const Homepage = (): JSX.Element => {
     <div className={classes.homepage}>
       {withSideMargins({
         Component: <WelcomeComponent />,
-        backgroundColor: "black",
       })}
       {withSideMargins({
         Component: <Development />,
-        backgroundColor: "black",
       })}
       {withSideMargins({
         Component: <Portfolio />,
-        backgroundColor: "#743bfc",
+        backgroundColor: "var(--second-bg-color)",
       })}
       <Customers></Customers>
       <Profile></Profile>
       {withSideMargins({
         Component: <InfoSection />,
-        backgroundColor: "black",
       })}
     </div>
   );

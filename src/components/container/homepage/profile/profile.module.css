@@ -1,16 +1,6 @@
 .body {
   padding: 10vh 0;
-  background-color: #743bfc;
-}
-.title {
-  font-family: "Poppins-Bold";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 72px;
-
-  color: #ffffff;
-  padding-bottom: 9vh;
+  background-color: var(--second-bg-color);
 }
 
 .information {
@@ -26,9 +16,9 @@
   font-family: "Poppins-Bold";
   font-style: normal;
   font-weight: bold;
-  font-size: 72px;
+  font-size: 7.2rem;
   line-height: 108px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .itemSubtitle {
@@ -37,5 +27,5 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  color: #ffffff;
+  color: var(--text-color);
 }

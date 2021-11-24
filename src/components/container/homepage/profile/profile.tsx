@@ -1,14 +1,13 @@
 import React from "react";
 import withSideMargins from "../../../../common/components/side-margin/withSideMagrins";
+import CommonTitle from "../../../../common/components/title/title";
 import classes from "./profile.module.css";
 import ProfileSlider from "./slider/slider";
 
 const Profile = (): JSX.Element => {
   const Title = withSideMargins({
     Component: (
-      <div className={classes.title}>
-        We make <br /> products shine{" "}
-      </div>
+      <CommonTitle width="max(20%, 370px)">We make products shine</CommonTitle>
     ),
     backgroundColor: "pirple",
   });

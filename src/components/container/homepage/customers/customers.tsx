@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./customers.module.css";
 import withSideMargins from "../../../../common/components/side-margin/withSideMagrins";
-import Title from "../../../../common/components/title/title";
+import CommonTitle from "../../../../common/components/title/title";
 // import CustomersSlider from "./slider/slider";
 
 const Customers = (): JSX.Element => {
@@ -9,13 +9,11 @@ const Customers = (): JSX.Element => {
     <div className={classes.body}>
       {withSideMargins({
         Component: (
-          <div>
-            <Title pirple="Our Customers'"> Our Customers' Success Stories-cycle </Title>
-            <div className={classes.subTitle}></div>
-          </div>
+          <CommonTitle pirple="Our Customers'">
+            Our Customers' Success Stories-cycle
+          </CommonTitle>
         ),
       })}
-      {/* <CustomersSlider></CustomersSlider> */}
     </div>
   );
 };

@@ -3,7 +3,11 @@ import classes from "./dev.module.css"
 import {IDev} from "./../developments"
 
 
+
 const Dev  = ({title, description, image}:IDev):JSX.Element =>{
+
+
+    
     return(
         <div className= {classes.container}>
             <img src={image} alt="" />

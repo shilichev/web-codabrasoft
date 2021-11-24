@@ -8,15 +8,16 @@ body {
 html {
   scroll-behavior: smooth;
   overflow: hidden;
-  font-size: clamp(8px, 0.7vw, 10px);
+  font-size: clamp(7px, 0.72vw, 10px);
   min-height: 0vw;
   -webkit-marquee-increment: 0vw;
 }
 
 @media screen and (max-width: 1200px) {
   html {
-    font-size: 8px;
-  }}
+    /* font-size: clamp(7px, 0.7vw, 8px); */
+  }
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -62,4 +63,13 @@ code {
   src: url("./data/fonts/Poppins/Poppins-SemiBold.ttf");
   font-style: normal;
   font-weight: normal;
+}
+
+:root {
+  --main-bg-color: #0A0A0A;
+  --second-bg-color: #743bfc;
+  --text-color: #FFFFFF;
+  --common-side-padding: max(calc(50% - 585px), 15px);
+  --common-bottom-top-padding: 10vh;
+  --common-title-default-width: max(calc(7% + 500px), 60%);
 }
