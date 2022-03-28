@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/header/header";
 import Homepage from "./components/container/homepage/homepage";
-import { useWindowSize } from "./common/windowSize";
+import  useWindowSize  from "./common/hooks/useWindowSize";
 import withSideMargins from "./common/components/side-margin/withSideMagrins";
 
 function App() {
